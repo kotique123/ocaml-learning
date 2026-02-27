@@ -1,0 +1,3 @@
+(test
+ (name exercise_spec)
+ (libraries exercise alcotest unix))

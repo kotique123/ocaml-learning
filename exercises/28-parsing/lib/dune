@@ -1,0 +1,4 @@
+(library
+ (name exercise)
+ (modules exercise)
+ (libraries angstrom))
