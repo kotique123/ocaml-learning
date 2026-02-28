@@ -9,10 +9,10 @@ module Stack : sig
 end = struct
   type 'a t = 'a list
   let empty = []
-  let push _x _s = failwith "not implemented"
-  let pop _s = failwith "not implemented"
-  let is_empty _s = failwith "not implemented"
-  let size _s = failwith "not implemented"
+  let push x s = failwith "not implemented"
+  let pop s = failwith "not implemented"
+  let is_empty s = failwith "not implemented"
+  let size s = failwith "not implemented"
 end
 
 (** A simple queue implemented as a module. *)
@@ -26,10 +26,10 @@ module Queue : sig
 end = struct
   type 'a t = { front : 'a list; rear : 'a list }
   let empty = { front = []; rear = [] }
-  let enqueue _x _q = failwith "not implemented"
-  let dequeue _q = failwith "not implemented"
-  let is_empty _q = failwith "not implemented"
-  let size _q = failwith "not implemented"
+  let enqueue x q = failwith "not implemented"
+  let dequeue q = failwith "not implemented"
+  let is_empty q = failwith "not implemented"
+  let size q = failwith "not implemented"
 end
 
 (** A counter module with encapsulated state. *)
@@ -42,9 +42,9 @@ module Counter : sig
   val reset : t -> t
 end = struct
   type t = int
-  let make _n = failwith "not implemented"
-  let increment _c = failwith "not implemented"
-  let decrement _c = failwith "not implemented"
-  let value _c = failwith "not implemented"
-  let reset _c = failwith "not implemented"
+  let make n = failwith "not implemented"
+  let increment c = failwith "not implemented"
+  let decrement c = failwith "not implemented"
+  let value c = failwith "not implemented"
+  let reset c = failwith "not implemented"
 end

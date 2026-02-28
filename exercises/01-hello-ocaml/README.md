@@ -49,6 +49,16 @@ Mixing `int` and `float` with the same operator is a **type error**. Use `float_
 ### Float.pi
 The standard library provides `Float.pi` (≈ 3.14159265358979…) for use in floating-point calculations.
 
+### Conditionals
+OCaml's `if` expression returns a value — both branches must have the same type:
+```ocaml
+let classify score =
+  if score >= 90.0 then "A"
+  else if score >= 80.0 then "B"
+  else "C"
+```
+For numeric comparisons on `float` values, use `>=`, `>`, `<=`, `<`. There is no separate `elsif` keyword — chain conditions with `else if`. Every `if` that isn't `unit` must have a matching `else`.
+
 ---
 
 ## Practice Assignments

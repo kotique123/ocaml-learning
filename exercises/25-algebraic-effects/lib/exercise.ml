@@ -55,5 +55,5 @@ let run_with_abort f default =
       exnc = raise;
       effc = fun (type a) (eff : a Effect.t) ->
         match eff with
-        | Abort -> Some (fun (_k : (a, _) continuation) -> default)
+        | Abort -> Some (fun (k : (a, _) continuation) -> default)
         | _ -> None }

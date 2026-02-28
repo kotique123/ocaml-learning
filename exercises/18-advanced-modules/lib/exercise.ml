@@ -14,9 +14,9 @@ module PriorityQueue (C : COMPARABLE) : sig
 end = struct
   type t = C.t list (* kept sorted *)
   let empty = []
-  let insert _x _q = failwith "not implemented"
-  let pop_min _q = failwith "not implemented"
-  let size _q = failwith "not implemented"
+  let insert x q = failwith "not implemented"
+  let pop_min q = failwith "not implemented"
+  let size q = failwith "not implemented"
 end
 
 (** A generic ring buffer (fixed-size circular buffer). *)
@@ -32,9 +32,9 @@ end
 module RingBuffer : RING_BUFFER = struct
   type 'a t = { buf : 'a option array; cap : int; mutable head : int; mutable len : int }
   [@@warning "-69"]
-  let make _cap = failwith "not implemented"
-  let push _x _rb = failwith "not implemented"
-  let to_list _rb = failwith "not implemented"
-  let size _rb = failwith "not implemented"
-  let capacity _rb = failwith "not implemented"
+  let make cap = failwith "not implemented"
+  let push x rb = failwith "not implemented"
+  let to_list rb = failwith "not implemented"
+  let size rb = failwith "not implemented"
+  let capacity rb = failwith "not implemented"
 end
