@@ -7,12 +7,8 @@ type _ expr =
   | Eq       : int expr * int expr -> bool expr
 
 (** [eval e] evaluates the expression [e] to its value. *)
-let rec eval : type a. a expr -> a = function
-  | Lit_int n  -> n
-  | Lit_bool b -> b
-  | Add (e1, e2) -> eval e1 + eval e2
-  | If (cond, e_then, e_else) -> if eval cond then eval e_then else eval e_else
-  | Eq (e1, e2) -> eval e1 = eval e2
+let rec eval : type a. a expr -> a =
+  fun e -> ignore e; failwith "not implemented"
 
 (** Heterogeneous list (HList). *)
 type _ hlist =
@@ -20,12 +16,13 @@ type _ hlist =
   | HCons : 'a * 'b hlist -> ('a * 'b) hlist
 
 (** [hhead lst] returns the first element of a non-empty HList. *)
-let hhead (HCons (x, _)) = x
+let hhead (lst : ('a * 'b) hlist) : 'a =
+  ignore lst; failwith "not implemented"
 
 (** [htail lst] returns the tail of a non-empty HList. *)
-let htail (HCons (_, rest)) = rest
+let htail (lst : ('a * 'b) hlist) : 'b hlist =
+  ignore lst; failwith "not implemented"
 
 (** [hlength lst] returns the number of elements (as a regular int). *)
-let rec hlength : type a. a hlist -> int = function
-  | HNil -> 0
-  | HCons (_, rest) -> 1 + hlength rest
+let rec hlength : type a. a hlist -> int =
+  fun lst -> ignore lst; failwith "not implemented"
