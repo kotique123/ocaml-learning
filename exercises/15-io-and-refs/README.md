@@ -76,7 +76,11 @@ Printf.printf "formatted: %d %.2f\n" 42 3.14
 
 ## Practice Assignments
 
-1. **Assignment 1: make_counter** — Use a `ref` inside a closure to build an increment/read counter pair.
-2. **Assignment 2: memoize** — Implement generic memoization with `Hashtbl`, caching each argument the first time it is seen.
-3. **Assignment 3: read_lines / write_lines** — Read all lines from a file into a list; write a list of strings to a file one per line.
-4. **Assignment 4: running_average** — Track a running mean using mutable state; return an add/query function pair.
+### Assignment 1: make_counter
+Use a `ref` inside a closure to build an increment/read counter pair.
+### Assignment 2: memoize
+Implement generic memoization with `Hashtbl`, caching each argument the first time it is seen.
+### Assignment 3: read_lines / write_lines
+Read all lines from a file into a list; write a list of strings to a file one per line.
+### Assignment 4: running_average
+Track a running mean using mutable state; return an add/query function pair.

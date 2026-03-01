@@ -57,12 +57,17 @@ OCaml's standard library provides imperative `Queue` and `Stack` modules with th
 
 ## Practice Assignments
 
-**Assignment 1 — `swap`:** Implement `swap r1 r2` that exchanges the contents of two `ref` cells.
+### Assignment 1: swap
+Implement `swap r1 r2` that exchanges the contents of two `ref` cells.
 
-**Assignment 2 — `array_fill_range`:** Implement `array_fill_range arr lo hi v` that sets every position from `lo` to `hi` (inclusive) to `v`.
+### Assignment 2: array_fill_range
+Implement `array_fill_range arr lo hi v` that sets every position from `lo` to `hi` (inclusive) to `v`.
 
-**Assignment 3 — `histogram`:** Implement `histogram lst` returning a `Hashtbl` mapping each element to its count.
+### Assignment 3: histogram
+Implement `histogram lst` returning a `Hashtbl` mapping each element to its count.
 
-**Assignment 4 — `dedup_array`:** Implement `dedup_array arr` returning a new array with consecutive duplicates removed.
+### Assignment 4: dedup_array
+Implement `dedup_array arr` returning a new array with consecutive duplicates removed.
 
-**Assignment 5 — `queue_rotate`:** Implement `queue_rotate q n` that moves the front element to the back `n` times, modifying `q` in place.
+### Assignment 5: queue_rotate
+Implement `queue_rotate q n` that moves the front element to the back `n` times, modifying `q` in place.

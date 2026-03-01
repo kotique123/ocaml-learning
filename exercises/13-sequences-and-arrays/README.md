@@ -59,9 +59,15 @@ This is the general pattern for producing sequences from evolving state.
 
 ## Practice Assignments
 
-1. **Assignment 1: array_sum** — Sum all elements of an integer array using `Array.fold_left`.
-2. **Assignment 2: array_rotate** — Return a new array rotated left by `n` positions.
-3. **Assignment 3: running_total** — Compute prefix sums: each element becomes the cumulative total so far.
-4. **Assignment 4: naturals** — Create an infinite lazy sequence of natural numbers starting at 0.
-5. **Assignment 5: seq_take** — Consume the first `n` elements of any sequence and return them as a list.
-6. **Assignment 6: seq_squares** — Generate the first `n` perfect squares (1, 4, 9, …) using sequences.
+### Assignment 1: array_sum
+Sum all elements of an integer array using `Array.fold_left`.
+### Assignment 2: array_rotate
+Return a new array rotated left by `n` positions.
+### Assignment 3: running_total
+Compute prefix sums: each element becomes the cumulative total so far.
+### Assignment 4: naturals
+Create an infinite lazy sequence of natural numbers starting at 0.
+### Assignment 5: seq_take
+Consume the first `n` elements of any sequence and return them as a list.
+### Assignment 6: seq_squares
+Generate the first `n` perfect squares (1, 4, 9, …) using sequences.

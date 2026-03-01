@@ -45,8 +45,11 @@ Effects shine for: structured logging, dependency injection, mock I/O in tests, 
 
 ## Practice Assignments
 
-**Assignment 1 — run_with_log:** Handle `Log` effects by accumulating messages in a `ref list`. Resume the continuation with `()` after each log. Return the final result paired with the collected log lines.
+### Assignment 1: run_with_log
+Handle `Log` effects by accumulating messages in a `ref list`. Resume the continuation with `()` after each log. Return the final result paired with the collected log lines.
 
-**Assignment 2 — run_state:** Handle `Get` (resume with current state) and `Put` (update the `ref`, resume with `()`). Return the result paired with the final state.
+### Assignment 2: run_state
+Handle `Get` (resume with current state) and `Put` (update the `ref`, resume with `()`). Return the result paired with the final state.
 
-**Assignment 3 — run_with_abort:** Handle `Abort` by *not* calling `continue` — simply return `default`. Any code after `Effect.perform Abort` is unreachable and never executes.
+### Assignment 3: run_with_abort
+Handle `Abort` by *not* calling `continue` — simply return `default`. Any code after `Effect.perform Abort` is unreachable and never executes.

@@ -46,14 +46,14 @@ The `Format` module cleanly separates *what* to print from *where* to print it a
 
 ## Practice Assignments
 
-### Assignment 1 — `pp_list`
+### Assignment 1: pp_list
 Implement `pp_list pp_elem ppf lst` that prints a list as `[e1; e2; e3]` using `pp_elem` for each element.
 
-### Assignment 2 — `pp_tree`
+### Assignment 2: pp_tree
 Implement `pp_tree pp_val ppf t` for the provided binary tree type. Print `"."` for `Leaf` and `"(left val right)"` for `Node`.
 
-### Assignment 3 — `pp_record`
+### Assignment 3: pp_record
 Implement `pp_record ppf fields` that prints a `(string * string) list` as `{ key1 = val1; key2 = val2 }`.
 
-### Assignment 4 — `format_table`
+### Assignment 4: format_table
 Implement `format_table headers rows` that returns an aligned ASCII table string. Compute the maximum width of each column and pad cells accordingly with a separator row of dashes between the header and the data rows.

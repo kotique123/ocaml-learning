@@ -45,12 +45,17 @@ An `hlist` stores elements of **different types** in a single list. The type ind
 
 ## Practice Assignments
 
-**Assignment 1 — eval int expressions:** Implement `eval` for `Lit_int` and `Add`. Return the raw `int` or sum of recursive evaluations.
+### Assignment 1: eval int expressions
+Implement `eval` for `Lit_int` and `Add`. Return the raw `int` or sum of recursive evaluations.
 
-**Assignment 2 — eval bool expressions:** Implement `eval` for `Lit_bool` and `Eq`. The `Eq` constructor evaluates two int sub-expressions and compares them with `=`.
+### Assignment 2: eval bool expressions
+Implement `eval` for `Lit_bool` and `Eq`. The `Eq` constructor evaluates two int sub-expressions and compares them with `=`.
 
-**Assignment 3 — eval If expressions:** The `If` constructor is polymorphic in `'a` — the then and else branches must have the same type, and the result is that type.
+### Assignment 3: eval If expressions
+The `If` constructor is polymorphic in `'a` — the then and else branches must have the same type, and the result is that type.
 
-**Assignment 4 — hhead and htail:** Pattern-match `HCons` to extract the head and tail. The types encode which component you return.
+### Assignment 4: hhead and htail
+Pattern-match `HCons` to extract the head and tail. The types encode which component you return.
 
-**Assignment 5 — hlength:** Use `type a.` polymorphic recursion to traverse the `hlist` and count elements, returning a plain `int`.
+### Assignment 5: hlength
+Use `type a.` polymorphic recursion to traverse the `hlist` and count elements, returning a plain `int`.

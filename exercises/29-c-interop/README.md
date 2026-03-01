@@ -46,17 +46,17 @@ Use C stubs when you need access to OS APIs, performance-critical numeric kernel
 
 ## Practice Assignments
 
-### Assignment 1 — `create_buffer`
+### Assignment 1: create_buffer
 Implement `create_buffer n` that allocates a zero-filled `Bigarray` of `n` bytes using `Array1.create`.
 
-### Assignment 2 — `buffer_fill`
+### Assignment 2: buffer_fill
 Implement `buffer_fill buf v` that sets every element of `buf` to `v` using a `for` loop.
 
-### Assignment 3 — `buffer_sum`
+### Assignment 3: buffer_sum
 Implement `buffer_sum buf` that returns the integer sum of all bytes in `buf`.
 
-### Assignment 4 — `buffer_to_string` and `bytes_to_buffer`
+### Assignment 4: buffer_to_string and bytes_to_buffer
 Implement conversions between `buffer` and `Bytes`. Iterate over indices and copy byte-by-byte.
 
-### Assignment 5 — `xor_buffers`
+### Assignment 5: xor_buffers
 Implement `xor_buffers a b` returning a new buffer where each byte is `a.(i) lxor b.(i)`. Raise `Invalid_argument` if lengths differ.

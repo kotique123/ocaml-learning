@@ -51,12 +51,17 @@ Use `Queue` for FIFO access and `Stack` for LIFO. Both are mutable and O(1) for 
 
 ## Practice Assignments
 
-**Assignment 1 — `frequency_map`:** Build an `IntMap` from element to count for a given list.
+### Assignment 1: frequency_map
+Build an `IntMap` from element to count for a given list.
 
-**Assignment 2 — `top_n`:** Return the `n` map entries with the highest values, sorted by value descending.
+### Assignment 2: top_n
+Return the `n` map entries with the highest values, sorted by value descending.
 
-**Assignment 3 — `bst_insert` and `bst_mem`:** Implement insertion and membership for the polymorphic BST type.
+### Assignment 3: bst_insert and bst_mem
+Implement insertion and membership for the polymorphic BST type.
 
-**Assignment 4 — `bst_to_sorted_list`:** Implement in-order traversal returning all elements in sorted order.
+### Assignment 4: bst_to_sorted_list
+Implement in-order traversal returning all elements in sorted order.
 
-**Assignment 5 — `anagram_groups`:** Group a list of words by their sorted-character signature using `StringMap`.
+### Assignment 5: anagram_groups
+Group a list of words by their sorted-character signature using `StringMap`.

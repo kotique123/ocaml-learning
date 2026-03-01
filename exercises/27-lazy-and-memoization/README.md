@@ -46,20 +46,20 @@ Key combinators: `Seq.cons`, `Seq.filter`, `Seq.take`, `Seq.map`, `List.of_seq`.
 
 ## Practice Assignments
 
-### Assignment 1 — `force_once`
+### Assignment 1: force_once
 Implement `force_once v` that forces a `lazy_t` value using `Lazy.force`.
 
-### Assignment 2 — `memoize`
+### Assignment 2: memoize
 Implement `memoize f` returning a version of `f` backed by a `Hashtbl` cache.
 
-### Assignment 3 — `fib_memo`
+### Assignment 3: fib_memo
 Implement `fib_memo n` using memoization so that `fib_memo 30` (and beyond) runs efficiently without exponential re-computation.
 
-### Assignment 4 — `lazy_range`
+### Assignment 4: lazy_range
 Implement `lazy_range lo hi` returning a `Seq.t` of integers `[lo, hi)`.
 
-### Assignment 5 — `lazy_filter`
+### Assignment 5: lazy_filter
 Implement `lazy_filter pred seq` returning a lazy `Seq.t` containing only elements satisfying `pred`.
 
-### Assignment 6 — `lazy_fibs`
+### Assignment 6: lazy_fibs
 Implement `lazy_fibs ()` returning an infinite `Seq.t` of Fibonacci numbers `0, 1, 1, 2, 3, 5, …`. Use a helper that carries the pair `(a, b)` forward.

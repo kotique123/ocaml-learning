@@ -36,10 +36,14 @@ For small lists or cheap functions, sequential `List.map` is faster.
 
 ## Practice Assignments
 
-**Assignment 1 — parallel_map:** Spawn one domain per element using `Domain.spawn`, collect all domain handles, then `Domain.join` each in order to preserve the original ordering.
+### Assignment 1: parallel_map
+Spawn one domain per element using `Domain.spawn`, collect all domain handles, then `Domain.join` each in order to preserve the original ordering.
 
-**Assignment 2 — parallel_sum:** Split the list in half, compute each half's sum in a separate domain, and add the results. Handle the empty list as a special case.
+### Assignment 2: parallel_sum
+Split the list in half, compute each half's sum in a separate domain, and add the results. Handle the empty list as a special case.
 
-**Assignment 3 — thread_safe_counter:** Build a counter using a `ref` protected by a `Mutex`. Implement `increment` with lock/unlock around `incr`, and `get` with lock/unlock around the read.
+### Assignment 3: thread_safe_counter
+Build a counter using a `ref` protected by a `Mutex`. Implement `increment` with lock/unlock around `incr`, and `get` with lock/unlock around the read.
 
-**Assignment 4 — atomic_counter:** Build a lock-free counter using `Atomic.make 0`. Use `Atomic.fetch_and_add` to increment and `Atomic.get` to read.
+### Assignment 4: atomic_counter
+Build a lock-free counter using `Atomic.make 0`. Use `Atomic.fetch_and_add` to increment and `Atomic.get` to read.

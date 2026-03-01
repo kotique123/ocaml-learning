@@ -49,10 +49,17 @@ let result =
 
 ## Practice Assignments
 
-1. **Assignment 1: safe_div** — Implement safe integer division returning `None` when the divisor is zero.
-2. **Assignment 2: safe_sqrt** — Implement safe square root returning `None` for negative inputs.
-3. **Assignment 3: option_map** — Implement `option_map` using only `match`, without `Option.map`.
-4. **Assignment 4: option_bind** — Implement `option_bind` (monadic bind for options).
-5. **Assignment 5: parse_int** — Convert a string to an integer, returning an `Error` message on failure.
-6. **Assignment 6: result_map** — Implement `result_map`, leaving `Error` values untouched.
-7. **Assignment 7: chain_divs** — Chain two safe divisions using `option_bind`.
+### Assignment 1: safe_div
+Implement safe integer division returning `None` when the divisor is zero.
+### Assignment 2: safe_sqrt
+Implement safe square root returning `None` for negative inputs.
+### Assignment 3: option_map
+Implement `option_map` using only `match`, without `Option.map`.
+### Assignment 4: option_bind
+Implement `option_bind` (monadic bind for options).
+### Assignment 5: parse_int
+Convert a string to an integer, returning an `Error` message on failure.
+### Assignment 6: result_map
+Implement `result_map`, leaving `Error` values untouched.
+### Assignment 7: chain_divs
+Chain two safe divisions using `option_bind`.

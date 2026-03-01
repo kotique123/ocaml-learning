@@ -41,23 +41,23 @@ The sieve is a classic imperative algorithm: allocate a boolean array of size `n
 
 ## Practice Assignments
 
-### Assignment 1 — `time_it`
+### Assignment 1: time_it
 Implement `time_it f` using `Sys.time` to measure the CPU time of `f ()`. Return `(result, elapsed)`.
 
-### Assignment 2 — `sum_list_naive`
+### Assignment 2: sum_list_naive
 Implement `sum_list_naive` using `List.fold_right`. Note: this is not tail-recursive.
 
-### Assignment 3 — `sum_list_fast`
+### Assignment 3: sum_list_fast
 Implement `sum_list_fast` using `List.fold_left` with an accumulator. Verify it agrees with `sum_list_naive`.
 
-### Assignment 4 — `sum_array`
+### Assignment 4: sum_array
 Implement `sum_array` using a `for` loop — the most cache-friendly approach.
 
-### Assignment 5 — `float_array_dot`
+### Assignment 5: float_array_dot
 Implement `float_array_dot a b` computing `Σ a.(i) *. b.(i)` using a `for` loop. Unboxed float arrays make this fast.
 
-### Assignment 6 — `sieve_of_eratosthenes`
+### Assignment 6: sieve_of_eratosthenes
 Implement the sieve using a `bool array`. Return all primes ≤ `n` in ascending order as an `int list`.
 
-### Assignment 7 — `merge_sort`
+### Assignment 7: merge_sort
 Implement `merge_sort` on `int list`. Split the list, recursively sort each half, then merge. Keep it purely functional (no mutation).

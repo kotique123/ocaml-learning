@@ -49,14 +49,14 @@ This is equivalent to `parse_int >>= fun x -> char '+' >>= fun _ -> ...`.
 
 ## Practice Assignments
 
-### Assignment 1 — `parse_int`
+### Assignment 1: parse_int
 Implement a parser for an optionally-signed decimal integer. Use `satisfy`, `many1`, and `map`.
 
-### Assignment 2 — `parse_csv_line`
+### Assignment 2: parse_csv_line
 Implement a CSV line parser that handles unquoted and double-quoted fields (quoted fields may contain commas).
 
-### Assignment 3 — `parse_json_bool`
+### Assignment 3: parse_json_bool
 Implement a parser that recognises the literal strings `"true"` and `"false"` and returns a `bool`.
 
-### Assignment 4 — `parse_list_of_ints`
+### Assignment 4: parse_list_of_ints
 Implement a parser for `[1, 2, 3]` notation: a bracket-delimited, comma-separated list of integers.

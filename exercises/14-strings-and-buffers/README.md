@@ -62,9 +62,15 @@ let cap s =
 
 ## Practice Assignments
 
-1. **Assignment 1: palindrome** — Return `true` if a string reads the same forwards and backwards, ignoring case.
-2. **Assignment 2: word_wrap** — Split text into lines, keeping each line within a maximum character width.
-3. **Assignment 3: count_vowels** — Count vowel characters (`aeiouAEIOU`) in a string.
-4. **Assignment 4: title_case** — Capitalise the first letter of every space-separated word.
-5. **Assignment 5: repeat_string** — Repeat a string `n` times efficiently using `Buffer`.
-6. **Assignment 6: csv_row** — Join fields with commas, wrapping in double-quotes any field that itself contains a comma.
+### Assignment 1: palindrome
+Return `true` if a string reads the same forwards and backwards, ignoring case.
+### Assignment 2: word_wrap
+Split text into lines, keeping each line within a maximum character width.
+### Assignment 3: count_vowels
+Count vowel characters (`aeiouAEIOU`) in a string.
+### Assignment 4: title_case
+Capitalise the first letter of every space-separated word.
+### Assignment 5: repeat_string
+Repeat a string `n` times efficiently using `Buffer`.
+### Assignment 6: csv_row
+Join fields with commas, wrapping in double-quotes any field that itself contains a comma.

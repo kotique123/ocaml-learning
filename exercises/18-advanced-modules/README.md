@@ -59,6 +59,8 @@ This enables storing different module implementations in lists, passing them to 
 
 ## Practice Assignments
 
-**Assignment 1 — `PriorityQueue`:** Implement `insert`, `pop_min`, and `size` for the sorted-list-backed priority queue functor. `insert` should maintain sorted order; `pop_min` should return the smallest element and the remaining queue.
+### Assignment 1: PriorityQueue
+Implement `insert`, `pop_min`, and `size` for the sorted-list-backed priority queue functor. `insert` should maintain sorted order; `pop_min` should return the smallest element and the remaining queue.
 
-**Assignment 2 — `RingBuffer`:** Implement `make`, `push`, `to_list`, `size`, and `capacity` for the fixed-size circular buffer. When the buffer is full, `push` should drop the oldest element.
+### Assignment 2: RingBuffer
+Implement `make`, `push`, `to_list`, `size`, and `capacity` for the fixed-size circular buffer. When the buffer is full, `push` should drop the oldest element.

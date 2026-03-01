@@ -49,8 +49,13 @@ Sets support the classical mathematical operations:
 
 ## Practice Assignments
 
-1. **Assignment 1: word_count** — Build a frequency map from a list of words using `StringMap`.
-2. **Assignment 2: most_frequent** — Scan a word-count map to find the entry with the highest count.
-3. **Assignment 3: unique_ints** — Collect integers from a list into an `IntSet`, discarding duplicates.
-4. **Assignment 4: intersection_count** — Return the number of elements shared by two `IntSet` values.
-5. **Assignment 5: invert_map** — Swap keys and values, turning a `StringMap int` into an `IntMap string`.
+### Assignment 1: word_count
+Build a frequency map from a list of words using `StringMap`.
+### Assignment 2: most_frequent
+Scan a word-count map to find the entry with the highest count.
+### Assignment 3: unique_ints
+Collect integers from a list into an `IntSet`, discarding duplicates.
+### Assignment 4: intersection_count
+Return the number of elements shared by two `IntSet` values.
+### Assignment 5: invert_map
+Swap keys and values, turning a `StringMap int` into an `IntMap string`.

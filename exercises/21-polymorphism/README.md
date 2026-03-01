@@ -44,10 +44,14 @@ OCaml's **value restriction** prevents unsound generalisation of mutable referen
 
 ## Practice Assignments
 
-**Assignment 1 — push and top:** Implement `push` and `top` for `typed_stack`. `push x s` wraps the element in a `Push` constructor. `top` pattern-matches a non-empty stack and returns the head element.
+### Assignment 1: push and top
+Implement `push` and `top` for `typed_stack`. `push x s` wraps the element in a `Push` constructor. `top` pattern-matches a non-empty stack and returns the head element.
 
-**Assignment 2 — pop:** Implement `pop` to return both the top element and the remainder of the stack. Notice the return type `'a * (_, 'a) typed_stack` — the remainder may be empty or non-empty.
+### Assignment 2: pop
+Implement `pop` to return both the top element and the remainder of the stack. Notice the return type `'a * (_, 'a) typed_stack` — the remainder may be empty or non-empty.
 
-**Assignment 3 — vhead and vtail:** Implement `vhead` and `vtail` for `vec`. Both are total by construction — the type guarantees a non-empty vector is supplied.
+### Assignment 3: vhead and vtail
+Implement `vhead` and `vtail` for `vec`. Both are total by construction — the type guarantees a non-empty vector is supplied.
 
-**Assignment 4 — vec_to_list:** Implement `vec_to_list` using a locally abstract type annotation `type n.` to allow the recursive call to handle the changing length index.
+### Assignment 4: vec_to_list
+Implement `vec_to_list` using a locally abstract type annotation `type n.` to allow the recursive call to handle the changing length index.

@@ -65,12 +65,17 @@ Fun.protect ~finally:(fun () -> close_channel ch) (fun () ->
 
 ## Practice Assignments
 
-**Assignment 1 — `safe_div`:** Implement `safe_div a b` that raises `Division_by_zero_custom "division by zero"` when `b = 0`.
+### Assignment 1: safe_div
+Implement `safe_div a b` that raises `Division_by_zero_custom "division by zero"` when `b = 0`.
 
-**Assignment 2 — `safe_nth`:** Implement `safe_nth lst i` that raises `Out_of_range {index; length}` when `i` is out of bounds.
+### Assignment 2: safe_nth
+Implement `safe_nth lst i` that raises `Out_of_range {index; length}` when `i` is out of bounds.
 
-**Assignment 3 — `try_div`:** Implement `try_div a b` that returns `Ok (a/b)` or `Error msg` by catching `Division_by_zero_custom`.
+### Assignment 3: try_div
+Implement `try_div a b` that returns `Ok (a/b)` or `Error msg` by catching `Division_by_zero_custom`.
 
-**Assignment 4 — `with_default`:** Implement `with_default default f` that runs `f ()` and returns `default` if any exception escapes.
+### Assignment 4: with_default
+Implement `with_default default f` that runs `f ()` and returns `default` if any exception escapes.
 
-**Assignment 5 — `validate_age`:** Implement `validate_age n` that raises `Invalid_argument "age must be 0..150"` for out-of-range values.
+### Assignment 5: validate_age
+Implement `validate_age n` that raises `Invalid_argument "age must be 0..150"` for out-of-range values.

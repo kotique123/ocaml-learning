@@ -41,16 +41,23 @@ Thread an extra argument (the accumulator) through the recursion. The base case 
 
 ## Practice Assignments
 
-**Assignment 1 — `sum_naive`:** Implement a naive (non-tail-recursive) sum using direct recursion.
+### Assignment 1: sum_naive
+Implement a naive (non-tail-recursive) sum using direct recursion.
 
-**Assignment 2 — `sum_tr`:** Implement a tail-recursive sum using an accumulator helper.
+### Assignment 2: sum_tr
+Implement a tail-recursive sum using an accumulator helper.
 
-**Assignment 3 — `reverse_tr`:** Implement `reverse_tr` using tail recursion (hint: accumulator).
+### Assignment 3: reverse_tr
+Implement `reverse_tr` using tail recursion (hint: accumulator).
 
-**Assignment 4 — `flatten_tr`:** Implement `flatten_tr` to flatten a list of lists tail-recursively (hint: `List.rev_append`).
+### Assignment 4: flatten_tr
+Implement `flatten_tr` to flatten a list of lists tail-recursively (hint: `List.rev_append`).
 
-**Assignment 5 — `map_tr`:** Implement `map_tr f lst` tail-recursively; remember to reverse the accumulated result.
+### Assignment 5: map_tr
+Implement `map_tr f lst` tail-recursively; remember to reverse the accumulated result.
 
-**Assignment 6 — `fibonacci_tr`:** Implement `fibonacci_tr n` with a tail-recursive helper carrying two accumulators (`a` and `b`).
+### Assignment 6: fibonacci_tr
+Implement `fibonacci_tr n` with a tail-recursive helper carrying two accumulators (`a` and `b`).
 
-**Assignment 7 — `range`:** Implement `range lo hi` returning `[lo; lo+1; ...; hi-1]` tail-recursively.
+### Assignment 7: range
+Implement `range lo hi` returning `[lo; lo+1; ...; hi-1]` tail-recursively.
