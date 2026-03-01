@@ -3,6 +3,7 @@ _build/
 *.install
 .ocamlformat-ignore
 .DS_Store
+copilot-session-*.md
 *.byte
 *.native
 *.annot
