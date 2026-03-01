@@ -1,3 +1,6 @@
 (library
  (name exercise)
- (modules exercise))
+ (modules exercise)
+ (libraries unix)
+ (ocamlopt_flags (:standard -w -27))
+ (ocamlc_flags (:standard -w -27)))

@@ -1,4 +1,6 @@
 (library
  (name exercise)
  (modules exercise)
- (preprocess (pps ppx_deriving.show ppx_deriving.eq ppx_deriving.ord)))
+ (preprocess (pps ppx_deriving.show ppx_deriving.eq ppx_deriving.ord))
+ (ocamlopt_flags (:standard -w -27-39))
+ (ocamlc_flags (:standard -w -27-39)))

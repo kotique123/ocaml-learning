@@ -1,4 +1,6 @@
 (library
  (name exercise)
  (modules exercise)
- (libraries angstrom))
+ (libraries angstrom)
+ (ocamlopt_flags (:standard -w -27))
+ (ocamlc_flags (:standard -w -27)))

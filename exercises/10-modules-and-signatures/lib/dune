@@ -1,5 +1,5 @@
 (library
  (name exercise)
  (modules exercise)
- (ocamlopt_flags (:standard -w -69))
- (ocamlc_flags (:standard -w -69)))
+ (ocamlopt_flags (:standard -w -27-69))
+ (ocamlc_flags (:standard -w -27-69)))
