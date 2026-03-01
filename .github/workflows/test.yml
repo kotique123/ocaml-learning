@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: "5.2"
+
+      - name: Install dependencies
+        run: opam install -y alcotest ppx_deriving angstrom
+
+      - name: Build all skeletons
+        run: |
+          eval $(opam env)
+          for dir in exercises/*/; do
+            (cd "$dir" && dune build)
+          done
+
+      - name: Validate all solutions
+        run: |
+          eval $(opam env)
+          ./scripts/validate-all.sh
