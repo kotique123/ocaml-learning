@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 14 — strings-and-buffers"
+  Alcotest.run "Exercise 14 — Strings and Buffers"
     [ ( "Assignment 1: palindrome"
       , [ Alcotest.test_case "\"racecar\" is a palindrome" `Quick (fun () ->
             Alcotest.(check bool) "true" true (Exercise.palindrome "racecar"))

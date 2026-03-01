@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 13 — sequences-and-arrays"
+  Alcotest.run "Exercise 13 — Sequences and Arrays"
     [ ( "Assignment 1: array_sum"
       , [ Alcotest.test_case "sum of [|1..5|]" `Quick (fun () ->
             Alcotest.(check int) "15" 15

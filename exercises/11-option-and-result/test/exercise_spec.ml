@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 11 — option-and-result"
+  Alcotest.run "Exercise 11 — Option and Result"
     [ ( "Assignment 1: safe_div"
       , [ Alcotest.test_case "6 / 2 = Some 3" `Quick (fun () ->
             Alcotest.(check (option int)) "some" (Some 3) (Exercise.safe_div 6 2))

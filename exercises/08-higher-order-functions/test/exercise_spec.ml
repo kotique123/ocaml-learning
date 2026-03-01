@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 08 — higher-order-functions"
+  Alcotest.run "Exercise 08 — Higher-Order Functions"
     [ ( "Assignment 1: my_fold_left"
       , [ Alcotest.test_case "sum empty" `Quick (fun () ->
               Alcotest.(check int)

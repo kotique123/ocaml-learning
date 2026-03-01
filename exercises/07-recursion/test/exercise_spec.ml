@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 07 — recursion"
+  Alcotest.run "Exercise 07 — Recursion"
     [ ( "Assignment 1: factorial"
       , [ Alcotest.test_case "factorial 0" `Quick (fun () ->
               Alcotest.(check int) "0! = 1" 1 (Exercise.factorial 0))

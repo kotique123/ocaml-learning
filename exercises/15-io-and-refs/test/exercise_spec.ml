@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 15 — io-and-refs"
+  Alcotest.run "Exercise 15 — IO and Refs"
     [ ( "Assignment 1: make_counter"
       , [ Alcotest.test_case "starts at 0" `Quick (fun () ->
             let (_, get) = Exercise.make_counter () in

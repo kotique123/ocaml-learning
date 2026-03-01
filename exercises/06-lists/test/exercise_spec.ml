@@ -1,5 +1,5 @@
 let () =
-  Alcotest.run "Exercise 06 — lists"
+  Alcotest.run "Exercise 06 — Lists"
     [ ( "Assignment 1: sum"
       , [ Alcotest.test_case "empty list" `Quick (fun () ->
               Alcotest.(check int) "sum []" 0 (Exercise.sum []))

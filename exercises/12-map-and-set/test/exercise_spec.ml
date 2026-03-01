@@ -31,7 +31,7 @@ let make_imap bindings =
     Exercise.IntMap.empty bindings
 
 let () =
-  Alcotest.run "Exercise 12 — map-and-set"
+  Alcotest.run "Exercise 12 — Map and Set"
     [ ( "Assignment 1: word_count"
       , [ Alcotest.test_case "basic frequency counts" `Quick (fun () ->
             let expected = make_smap [ ("hello", 2); ("world", 1) ] in
