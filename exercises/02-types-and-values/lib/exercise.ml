@@ -12,7 +12,9 @@ let code_to_char (n : int) : char = char_of_int(n)
 
 (** [is_digit c] returns true if [c] is a digit character '0'..'9'. *)
 let is_digit (c : char) : bool =
-  
+  let char_num = int_of_char(c) - int_of_char('0') in
+  if char_num >= 0 && char_num <= 9 then true
+  else false
 
 (** [celsius_to_fahrenheit c] converts Celsius to Fahrenheit: f = c *. 9.0 /. 5.0 +. 32.0 *)
-let celsius_to_fahrenheit (c : float) : float = failwith "not implemented"
+let celsius_to_fahrenheit (c : float) : float = c *. 9.0 /. 5.0 +. 32.0
